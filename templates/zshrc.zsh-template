@@ -81,6 +81,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+setopt NO_HUP
+
 bindkey "${key[Up]}" up-line-or-local-history
 bindkey "${key[Down]}" down-line-or-local-history
 bindkey "^[[1;5A" up-line-or-history
